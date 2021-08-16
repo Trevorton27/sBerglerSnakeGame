@@ -10,7 +10,7 @@ main {
   justify-content: space-evenly;
   margin: 0 0 10px;
   height: 100%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.5em;
 }
 
@@ -20,6 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5em;
+  padding-top: 2.5em;
   border-bottom: 1px solid #333;
 }
 
@@ -34,6 +35,8 @@ canvas {
 aside > p {
   display: block;
   text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 #game-over-display {
