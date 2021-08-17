@@ -69,7 +69,7 @@ class Snake {
   }
 
   growSnake() {
-    const headPos = Object.assign({}, this.snake.head.position);
+    const headPos = Object.assign({}, this.head.position);
     switch (this.direction) {
       case 'RIGHT':
         headPos.x += 10;
@@ -85,7 +85,7 @@ class Snake {
         break;
       case 'DOWN':
         headPos.y += 10;
-        this.snake.addHead(headPos);
+        this.addHead(headPos);
         break;
     }
   }

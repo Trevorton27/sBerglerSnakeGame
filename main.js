@@ -152,7 +152,7 @@ class StartGame {
     if (this.apple.isEaten(this.snake.head, this.params.gamePieceWidth)) {
       this.score++;
       this.scoreBoard.innerText = `${this.score}`;
-      this.growSnake();
+      this.snake.growSnake();
       this.apple = new Apple(
         this.canvas.width - 100,
         this.canvas.height - 100,
